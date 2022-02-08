@@ -1,0 +1,49 @@
+        body {
+            background-color: #090761;
+        }
+        
+        p,
+        h2 {
+            color: rgb(187, 181, 181);
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            position: relative;
+        }
+        
+        img {
+            float: right;
+            width: 50%;
+        }
+        
+        @media only screen and (max-width: 480px) {
+            img {
+                width: 50%;
+            }
+        }
+        
+        #container {
+            width: 980px;
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        
+        #avatar {
+            margin-right: 100px;
+            margin-top: 50px;
+        }
+        
+        .avatar_2 {
+            vertical-align: middle;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 50px;
+            float: left;
+        }
+        
+        .clearfix:after {
+            content: ".";
+            visibility: hidden;
+            display: block;
+            height: 0;
+            clear: both;
+        }
